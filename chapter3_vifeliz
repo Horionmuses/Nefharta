@@ -1,0 +1,7 @@
+label vifeliz:
+        show juana rara at left
+        show Takashiel at right
+        v "¡Perfecto! Entonces, vámonos."
+        hide juana rara
+        hide Takashiel
+        jump caminoanefharta_vi

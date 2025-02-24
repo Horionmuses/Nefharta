@@ -1,0 +1,7 @@
+label juanafeliz:
+        show juana rara at left
+        show takaenojado at right
+        juana "¡Genial! Te acercaré lo más que pueda a Nefharta."
+        hide juana rara
+        hide takaenojado
+        jump caminoanefhartajuana

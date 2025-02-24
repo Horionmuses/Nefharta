@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/chapter1.rpy", line 57, in script
+    jump caminoanefhartavi
+ScriptError: could not find label 'caminoanefhartavi'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/chapter1.rpy", line 57, in script
+    jump caminoanefhartavi
+  File "C:\Users\Usuario\Desktop\Programacion\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Usuario\Desktop\Programacion\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'caminoanefhartavi'.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.3.4.24120703
+Nefartha Beta 0.1
+Wed Feb  5 03:37:42 2025
